@@ -1,6 +1,6 @@
-FROM fedora:22
+FROM fedora:latest
 
-RUN dnf -y groupinstall 'Xfce Desktop' && \
+RUN dnf -y groupinstall 'MATE Desktop' && \
     dnf -y install \
     supervisor \
     xrdp \
